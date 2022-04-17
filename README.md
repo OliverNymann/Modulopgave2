@@ -17,20 +17,20 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 /* Her oprettes forbindelsen, dette er dog flyttet efterfølgende til filen addConnect.php */
-$conn = new mysqli($servername, $username, $password);
+$dbconnect = new mysqli($servername, $username, $password);
 /* Et simpelt check til at se om der nu er oprettet forbindelse */
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($dbconnect->connect_error) {
+    die("Connection failed: " . $dbconnect->connect_error);
 /* Create database */
 $sql = "CREATE DATABASE visitfynDB";
-if ($conn->query($sql) === TRUE) {
+if ($dbconnect->query($sql) === TRUE) {
     echo "Database oprettet";
 }
 else
 {
-    echo "Fejl i oprettelse af database: " . $conn->error;
+    echo "Fejl i oprettelse af database: " . $dbconnect->error;
 }
-$conn->close();
+$dbconnect->close();
 
 ?>
 
@@ -41,20 +41,20 @@ $username = "root";
 $password = "";
 $dbname = "visitfynDB";
 //Her opretter vi forbindelsen, denne gang er databasens navn også en del af forbindelsen.
-$conn = new mysqli($servername, $username, $password, $dbname);
+$dbconnect = new mysqli($servername, $username, $password, $dbname);
 /* Endnu en gang tjekker vi om der er oprettet forbindelse */
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($dbconnect->connect_error) {
+    die("Connection failed: " . $dbconnect->connect_error);
 /* Opret table */
 $sql = "CREATE TABLE users";
-if ($conn->query($sql) === TRUE) {
+if ($dbconnect->query($sql) === TRUE) {
     echo "Table oprettet";
 }
 else
 {
-    echo "Fejl i oprettelse af table: " . $conn->error;
+    echo "Fejl i oprettelse af table: " . $dbconnect->error;
 }
-$conn->close();
+$dbconnect->close();
 
 
 ?>
