@@ -58,12 +58,14 @@ $conn->close();
 
 
 ?>
+```
 
 ## Video Eksempel
 https://user-images.githubusercontent.com/55433479/163717227-7c0bfbc5-e77f-4e27-a17d-55bc4f493184.mp4
 
 ## ER over database/table Eksempel
 ![ER](https://user-images.githubusercontent.com/55433479/163719348-09661b05-d941-4355-8337-f0aafea6785d.png)
+
 
 ## Beskrivelse
 
@@ -81,3 +83,7 @@ mest mening iforhold til vores begrænset viden inden for sikkerheden bag et log
 
 Så vores system er vist som en liste af brugere, samt muligheden for at oprette nye brugere/medarbejdere
 samt opdatere og slette dem.
+
+Post & Get er lavet ved at referere dataen til en variabel i PHP, og der den variabel er derefter brugt på de forskellige sider, bla.
+til at vise brugerens nuværende information i felterne hvor de kan opdateres.
+Dette betyder at brugeren ikke skal taste alt det information der forbliver det samme som før, men kun skal skrive der hvor de faktisk vil have ændret noget.
