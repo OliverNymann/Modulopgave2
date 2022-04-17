@@ -1,7 +1,7 @@
 <?php
-
+//inkludere forbindelsesfilen
 include_once('addConnect.php');
-
+//Her bliver der queriet til at slette en bruger
 $query = "DELETE FROM users WHERE id='" . $_GET['id'] . "'";
 if (mysqli_query($dbconnect, $query)) {
     echo "Bruger slettet.";

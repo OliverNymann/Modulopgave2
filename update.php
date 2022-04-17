@@ -1,11 +1,14 @@
 <?php
+//inkludere forbindelsesfilen
 include_once 'addConnect.php';
+//Her bliver der queriet til hvordan opdateringen skal forgå
 if (count($_POST) > 0) {
     mysqli_query($dbconnect, "UPDATE users set ID='" . $_POST['ID'] . "', firstname='" . $_POST['firstname'] . "
     ', lastname='" . $_POST['lastname'] . "
     ', email='" . $_POST['email'] . "' ,phone='" . $_POST['phone'] . "' WHERE ID='" . $_POST['ID'] . "'");
     $message = "Bruger opdateret";
 }
+//Her bliver der queriet til hvor opdateringen skal forgå
 $query = mysqli_query($dbconnect, "SELECT * FROM users WHERE id='" . $_GET['id'] . "'");
 $row = mysqli_fetch_array($query);
 ?>

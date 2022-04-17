@@ -1,5 +1,5 @@
 <?php
-
+//Forbinelses fil
 $servername = "localhost";
 $username = "root";
 $password = "";
