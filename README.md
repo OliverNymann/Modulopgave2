@@ -58,3 +58,6 @@ $conn->close();
 
 
 ?>
+
+## Video Eksempel
+https://user-images.githubusercontent.com/55433479/163717227-7c0bfbc5-e77f-4e27-a17d-55bc4f493184.mp4
