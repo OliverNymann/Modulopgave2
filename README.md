@@ -61,3 +61,7 @@ $conn->close();
 
 ## Video Eksempel
 https://user-images.githubusercontent.com/55433479/163717227-7c0bfbc5-e77f-4e27-a17d-55bc4f493184.mp4
+
+## ER over database/table Eksempel
+![ER](https://user-images.githubusercontent.com/55433479/163719348-09661b05-d941-4355-8337-f0aafea6785d.png)
+
