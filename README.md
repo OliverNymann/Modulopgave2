@@ -8,7 +8,7 @@ Følgende kode er blevet brugt til at oprette databasen og tablet.
 
 
 
-## Database & Table / Eksempel
+## Oprettelse af Database & Table / Eksempel
 
 ```php
 <?php
