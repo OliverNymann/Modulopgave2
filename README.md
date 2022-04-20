@@ -91,7 +91,7 @@ Dette betyder at brugeren ikke skal taste alt det information der forbliver det 
 
 ## Figma - Klikbar prototype
 
-https://www.figma.com/proto/i5o12n2oLxC5VXu5iJsRK3/Wireframes?node-id=85%3A64&scaling=scale-down&page-id=0%3A1&starting-point-node-id=279%3A44&fbclid=IwAR1EnGnY8KsAyX6xkluBUkXbBFVc69-VS1yU50bDxztWKVZlna7pPpn1d7w
+https://www.figma.com/proto/i5o12n2oLxC5VXu5iJsRK3/Wireframes?node-id=85%3A62&scaling=scale-down&page-id=0%3A1&starting-point-node-id=85%3A62&show-proto-sidebar=1
 
 
 ## Charts
